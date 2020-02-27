@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Елена Грачева](https://up.htmlacademy.ru/htmlcss/27/user/283879).
-* Наставник: `Неизвестно`.
+* Наставник: <a href="https://htmlacademy.ru/profile/tatien">Татьяна Симоненко</a> 
 
 ---
 
