@@ -1517,7 +1517,7 @@ body {
     height: 26px;
 
     background-image: url("../img/icon-right.svg");
-    background-position: 0 7px;
+    background-position: 0;
     background-repeat: no-repeat;
     opacity: 0.5;
     
@@ -1531,10 +1531,13 @@ body {
     height: 26px;
 
     background-image: url("../img/icon-right.svg");
-    background-position: 0px 7px;
+    background-position: 0;
     background-repeat: no-repeat;
-    opacity: 1;
     margin-left: 16px;
+}
+
+.paginator-link-next span {
+    opacity: 0;
 }
 
 .paginator-item:not(:nth-child(2)):hover {
@@ -1856,12 +1859,6 @@ body {
 }
 
 .fillers {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-
     padding: 0;
     margin-right: 16px;
     margin-top: 16px;
@@ -1973,10 +1970,8 @@ body {
 }
 
 .button-apply {
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-
+    -ms-flex-item-align: end;
+        align-self: flex-end;
     min-height: 37px;
     margin-top: 37px;
     margin-bottom: 0;
@@ -1995,7 +1990,6 @@ body {
     background-color: rgba(255,255,255,0.188);
     border-radius: 25px;
     border: 2px solid #ffffff;
-
     cursor: pointer;
 }
 
